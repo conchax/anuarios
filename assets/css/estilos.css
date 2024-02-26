@@ -1,0 +1,55 @@
+body{
+    font-family: "Montserrat", Sans-serif;
+}
+.header-title{
+    background-image: url("https://prepaenlinea.sep.gob.mx/wp-content/uploads/2023/10/miComunidad_head_02.webp");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    align-items: center;
+}
+h1{
+    font-weight: 600;
+}
+h4{
+    color: #E0E7A5;
+    font-size: 80px;
+    font-weight: 700;
+  
+}
+.h{
+    height: 200px;
+}
+.photos-scroll{
+    height: 550px;
+    overflow-y: scroll;
+    max-width: 1440px;
+    margin: 0 auto;
+    border: 1px solid #4f5519;
+    padding: 2em 0;
+}
+.itemp{
+   
+    width: 70px;
+    margin: 0 5px;
+
+}
+
+figure img, .figure{
+    width: 70px;
+}
+.figure-caption{
+    font-size: 13px;
+    font-weight: 400;
+    width: 70px;
+    line-height: 16px;
+    text-align: center;
+}
+
+
+@media (max-width: 575.98px) { 
+
+    .photos-scroll{
+        height: 400px;
+    }
+ }
