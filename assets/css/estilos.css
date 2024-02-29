@@ -20,35 +20,57 @@ h4{
 .h{
     height: 200px;
 }
+.photos-scroll::-webkit-scrollbar {
+	width: 10px;
+  }
+  
+  .photos-scroll::-webkit-scrollbar-track {
+	background-color: rgba(79, 82, 55, 0.1);
+	/* -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.2);  */
+	border-radius: 5px;
+  }
+  
+  .photos-scroll::-webkit-scrollbar-thumb {
+	background-color: rgba(79, 82, 55, 1);
+	border-radius: 5px;
+  }
 .photos-scroll{
     height: 600px;
     overflow-y: scroll;
-    max-width: 1340px;
+    max-width: 1350px;
     margin: 0 auto;
     border: 1px solid #4f5519;
     padding: 2em 0;
 }
 .itemp{
-   
-    width: 70px;
+    width: 110px;
     padding: 0 5px;
-
 }
 
 .figure-caption{
     font-size: 13px;
     font-weight: 400;
-    width: 70px;
+    width: 90px;
     line-height: 16px;
     text-align: center;
+	margin:0 auto
 }
 
-
+figure{
+	display: block!important;
+}
 @media (max-width: 575.98px) { 
 
     .photos-scroll{
         height: 400px;
     }
+	.itemp{
+		width: 76px;
+    	padding: 0 5px;
+	}
+	.figure-caption{
+		width: 70px;
+	}
  }
 
 
@@ -61,7 +83,6 @@ h4{
 	width: 100%;
 	height: 34rem;
 	overflow: hidden;
-	margin-bottom: 8rem;
 }
 .cd-slider li {
 	position: absolute;
@@ -230,7 +251,5 @@ nav {
 	height: 1340px;
 	margin-bottom: 0px;
 	}
-	figure{
-		display: block!important;
-	}
+	
 }
