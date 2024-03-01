@@ -103,7 +103,7 @@ figure{
 	background-size: contain;
 	background-position: 50% 50%;
 	clip: rect(0, 80rem, 50rem, 80rem);
-	transition: clip .5s cubic-bezier(0.99, 0.01, 0.45, 0.9) .5s;
+	transition: clip 1.2s cubic-bezier(0.99, 0.01, 0.45, 0.9) .2s;
   will-change: clip;
   background-repeat: no-repeat;
 }
